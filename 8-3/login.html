@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-8-8.3 | Login Form and Flexible Nav </title>
+    <script src="https://kit.fontawesome.com/0f4ca1df67.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            /* border: 2px solid red; */
+        }
+        .login-form input{
+            margin-top: 1em;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+        .login-form input[type="submit"]{
+            background-color: goldenrod;
+            border: 0;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+    <span>Milestone-2-Module-8-8.3:</span>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+            <a href="">Dashboard</a>
+            <a href="">Inventory</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </span>
+            <!-- <a href="">Home</a>
+            <a href="">Dashboard</a>
+            <a href="">Inventory</a> -->
+            <!-- <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a> -->
+        </nav>
+    </header>
+    <!-- form.login-form -->
+    <!-- <form action="" class="login-form"></form> -->
+   <section class="login-container">
+      <form class="login-form">
+        <h2>Please Login</h2>
+        <input type="email" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="password" required>
+        <input type="submit" value="Login">
+      </form>
+   </section>
+    <br>
+    <h4>Create Login Form And Flexible Nav Using Flexbox.</h4>
+    <h4>Inline Block Elements:</h4>
+    <p>Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides. You'll have to declare display: inline-block in your CSS code. One common use for using inline-block is for creating navigation links horizontally, as shown below.</p>
+    
+</body>
+</html>
