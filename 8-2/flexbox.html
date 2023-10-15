@@ -4,11 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-8-8.2 | Flexbox, Flex Direction</title>
+    <style>
+        .container{
+            border: 3px dotted purple;
+            display: flex;
+            align-items: stretch;
+            /* justify-content: space-around; */
+            /* justify-content: center;
+            align-items: center; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+            height: 300px;
+        }
+        .box{
+            font-size: 3ex;
+            font-weight: 700;
+            border: 3px dashed peru;
+            width: 100px;
+            /* height: 100px; */
+        }
+        #box-2{
+            flex-grow: 1;
+        }
+        
+    </style>
     <span>Milestone-2-Module-8-8.2:</span>
 </head>
 <body>
+    <h2>Explore Flexbox</h2>
+    <!-- .container>.box*3 -->
+    <!-- .container>.box{Box-$}*3 -->
+    <div class="container">
+        <div class="box">Box-1</div>
+        <!-- <div class="box">Box-2</div> -->
+        <div id="box-2" class="box">Box-2</div>
+        <!-- <div class="box">Box-3</div>
+        <div class="box">Box-4</div>
+        <div class="box">Box-5</div>
+        <div class="box">Box-6</div>
+        <div class="box">Box-7</div>
+        <div class="box">Box-8</div>
+        <div class="box">Box-9</div>
+        <div class="box">Box-10</div>
+        <div class="box">Box-11</div>
+        <div class="box">Box-12</div>
+        <div class="box">Box-13</div>
+        <div class="box">Box-14</div>
+        <div class="box">Box-15</div>
+        <div class="box">Box-16</div>
+        <div class="box">Box-17</div>
+        <div class="box">Box-18</div>
+        <div class="box">Box-19</div>
+        <div class="box">Box-20</div> -->
+    </div>
+
     <br>
     <h4>Flexbox, Flex Direction justify content align items.</h4>
+    <h4>For Horizontal - Justify Content.</h4>
+    <h4>For Vertical - Align Items.</h4>
+    <h4>By Flexbox:</h4>
+    <p>justify-content:center;</p>
+    <p>align-items:center;</p>
+    <h4>flexbox unidirectional:</h4>
+    <p>Flexbox modal is unidirectional. When you define the parent element as flex , the direct children follow the main-axis or cross-axis as per the flex-direction . Therefore float , clear , vertical-align and display properties have no effect on flex items.</p>
     
 </body>
 </html>
